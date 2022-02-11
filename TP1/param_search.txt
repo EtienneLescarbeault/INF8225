@@ -1,0 +1,742 @@
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 1
+========================0========================
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+tensor(0.1078)
+tensor(0.1115)
+Epoch  0,                   Train: loss=2.322, accuracy=10.8%,                   Valid: loss=2.320, accuracy=11.2%
+========================1========================
+tensor(0.7424)
+tensor(0.7373)
+========================2========================
+tensor(0.7819)
+tensor(0.7780)
+========================3========================
+tensor(0.8273)
+tensor(0.8162)
+========================4========================
+tensor(0.7862)
+tensor(0.7848)
+========================5========================
+tensor(0.8392)
+tensor(0.8300)
+Epoch  5,                   Train: loss=inf, accuracy=83.9%,                   Valid: loss=2.894, accuracy=83.0%
+validation accuracy = 83.000
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 16
+========================0========================
+tensor(0.1161)
+tensor(0.1118)
+Epoch  0,                   Train: loss=2.315, accuracy=11.6%,                   Valid: loss=2.315, accuracy=11.2%
+========================1========================
+tensor(0.8015)
+tensor(0.8072)
+========================2========================
+tensor(0.8185)
+tensor(0.8210)
+========================3========================
+tensor(0.8292)
+tensor(0.8295)
+========================4========================
+tensor(0.8335)
+tensor(0.8310)
+========================5========================
+tensor(0.8106)
+tensor(0.8028)
+Epoch  5,                   Train: loss=inf, accuracy=81.1%,                   Valid: loss=inf, accuracy=80.3%
+validation accuracy = 83.100
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 32
+========================0========================
+tensor(0.0548)
+tensor(0.0555)
+Epoch  0,                   Train: loss=2.303, accuracy=5.5%,                   Valid: loss=2.303, accuracy=5.6%
+========================1========================
+tensor(0.8367)
+tensor(0.8355)
+========================2========================
+tensor(0.7845)
+tensor(0.7803)
+========================3========================
+tensor(0.8066)
+tensor(0.7977)
+========================4========================
+tensor(0.8233)
+tensor(0.8200)
+========================5========================
+tensor(0.8233)
+tensor(0.8203)
+Epoch  5,                   Train: loss=inf, accuracy=82.3%,                   Valid: loss=inf, accuracy=82.0%
+validation accuracy = 83.550
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 64
+========================0========================
+tensor(0.0939)
+tensor(0.0922)
+Epoch  0,                   Train: loss=inf, accuracy=9.4%,                   Valid: loss=inf, accuracy=9.2%
+========================1========================
+tensor(0.7760)
+tensor(0.7548)
+========================2========================
+tensor(0.8094)
+tensor(0.7907)
+========================3========================
+tensor(0.8208)
+tensor(0.8017)
+========================4========================
+tensor(0.8379)
+tensor(0.8193)
+========================5========================
+tensor(0.8010)
+tensor(0.7808)
+Epoch  5,                   Train: loss=inf, accuracy=80.1%,                   Valid: loss=inf, accuracy=78.1%
+validation accuracy = 81.933
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 128
+========================0========================
+tensor(0.0929)
+tensor(0.0938)
+Epoch  0,                   Train: loss=inf, accuracy=9.3%,                   Valid: loss=inf, accuracy=9.4%
+========================1========================
+tensor(0.7826)
+tensor(0.7675)
+========================2========================
+tensor(0.8124)
+tensor(0.7993)
+========================3========================
+tensor(0.7707)
+tensor(0.7562)
+========================4========================
+tensor(0.8406)
+tensor(0.8258)
+========================5========================
+tensor(0.7875)
+tensor(0.7748)
+Epoch  5,                   Train: loss=inf, accuracy=78.8%,                   Valid: loss=inf, accuracy=77.5%
+validation accuracy = 82.583
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 256
+========================0========================
+tensor(0.0329)
+tensor(0.0318)
+Epoch  0,                   Train: loss=inf, accuracy=3.3%,                   Valid: loss=inf, accuracy=3.2%
+========================1========================
+tensor(0.7058)
+tensor(0.7118)
+========================2========================
+tensor(0.8291)
+tensor(0.8305)
+========================3========================
+tensor(0.8461)
+tensor(0.8515)
+========================4========================
+tensor(0.8077)
+tensor(0.8017)
+========================5========================
+tensor(0.7517)
+tensor(0.7435)
+Epoch  5,                   Train: loss=inf, accuracy=75.2%,                   Valid: loss=inf, accuracy=74.3%
+validation accuracy = 85.150
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 512
+========================0========================
+tensor(0.0964)
+tensor(0.0935)
+Epoch  0,                   Train: loss=inf, accuracy=9.6%,                   Valid: loss=inf, accuracy=9.4%
+========================1========================
+tensor(0.7622)
+tensor(0.7493)
+========================2========================
+tensor(0.7825)
+tensor(0.7752)
+========================3========================
+tensor(0.8256)
+tensor(0.8182)
+========================4========================
+tensor(0.8331)
+tensor(0.8252)
+========================5========================
+tensor(0.8084)
+tensor(0.8007)
+Epoch  5,                   Train: loss=inf, accuracy=80.8%,                   Valid: loss=inf, accuracy=80.1%
+validation accuracy = 82.517
+------------------------------------------------------------------
+Training model with a learning rate of 0.1 and a batch size of 1024
+========================0========================
+tensor(0.0794)
+tensor(0.0788)
+Epoch  0,                   Train: loss=inf, accuracy=7.9%,                   Valid: loss=inf, accuracy=7.9%
+========================1========================
+tensor(0.7434)
+tensor(0.7412)
+========================2========================
+tensor(0.7657)
+tensor(0.7662)
+========================3========================
+tensor(0.7740)
+tensor(0.7682)
+========================4========================
+tensor(0.8239)
+tensor(0.8162)
+========================5========================
+tensor(0.7632)
+tensor(0.7580)
+Epoch  5,                   Train: loss=inf, accuracy=76.3%,                   Valid: loss=inf, accuracy=75.8%
+validation accuracy = 81.617
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 1
+========================0========================
+tensor(0.1089)
+tensor(0.1058)
+Epoch  0,                   Train: loss=2.293, accuracy=10.9%,                   Valid: loss=2.294, accuracy=10.6%
+========================1========================
+tensor(0.8093)
+tensor(0.8077)
+========================2========================
+tensor(0.8226)
+tensor(0.8198)
+========================3========================
+tensor(0.8557)
+tensor(0.8488)
+========================4========================
+tensor(0.8248)
+tensor(0.8195)
+========================5========================
+tensor(0.8620)
+tensor(0.8532)
+Epoch  5,                   Train: loss=0.408, accuracy=86.2%,                   Valid: loss=0.429, accuracy=85.3%
+validation accuracy = 85.317
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 16
+========================0========================
+tensor(0.0656)
+tensor(0.0632)
+Epoch  0,                   Train: loss=2.328, accuracy=6.6%,                   Valid: loss=2.328, accuracy=6.3%
+========================1========================
+tensor(0.8219)
+tensor(0.8127)
+========================2========================
+tensor(0.8341)
+tensor(0.8278)
+========================3========================
+tensor(0.8391)
+tensor(0.8333)
+========================4========================
+tensor(0.8483)
+tensor(0.8373)
+========================5========================
+tensor(0.8455)
+tensor(0.8368)
+Epoch  5,                   Train: loss=0.518, accuracy=84.5%,                   Valid: loss=0.569, accuracy=83.7%
+validation accuracy = 83.733
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 32
+========================0========================
+tensor(0.0765)
+tensor(0.0708)
+Epoch  0,                   Train: loss=2.313, accuracy=7.6%,                   Valid: loss=2.314, accuracy=7.1%
+========================1========================
+tensor(0.8305)
+tensor(0.8228)
+========================2========================
+tensor(0.8227)
+tensor(0.8155)
+========================3========================
+tensor(0.8297)
+tensor(0.8200)
+========================4========================
+tensor(0.8563)
+tensor(0.8487)
+========================5========================
+tensor(0.8354)
+tensor(0.8258)
+Epoch  5,                   Train: loss=0.679, accuracy=83.5%,                   Valid: loss=0.718, accuracy=82.6%
+validation accuracy = 84.867
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 64
+========================0========================
+tensor(0.1076)
+tensor(0.1087)
+Epoch  0,                   Train: loss=inf, accuracy=10.8%,                   Valid: loss=inf, accuracy=10.9%
+========================1========================
+tensor(0.8199)
+tensor(0.8140)
+========================2========================
+tensor(0.8045)
+tensor(0.8057)
+========================3========================
+tensor(0.8299)
+tensor(0.8265)
+========================4========================
+tensor(0.8424)
+tensor(0.8407)
+========================5========================
+tensor(0.8603)
+tensor(0.8542)
+Epoch  5,                   Train: loss=0.641, accuracy=86.0%,                   Valid: loss=0.662, accuracy=85.4%
+validation accuracy = 85.417
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 128
+========================0========================
+tensor(0.1584)
+tensor(0.1542)
+Epoch  0,                   Train: loss=inf, accuracy=15.8%,                   Valid: loss=inf, accuracy=15.4%
+========================1========================
+tensor(0.7588)
+tensor(0.7555)
+========================2========================
+tensor(0.8231)
+tensor(0.8130)
+========================3========================
+tensor(0.7516)
+tensor(0.7417)
+========================4========================
+tensor(0.7613)
+tensor(0.7503)
+========================5========================
+tensor(0.8457)
+tensor(0.8312)
+Epoch  5,                   Train: loss=inf, accuracy=84.6%,                   Valid: loss=inf, accuracy=83.1%
+validation accuracy = 83.117
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 256
+========================0========================
+tensor(0.0434)
+tensor(0.0433)
+Epoch  0,                   Train: loss=inf, accuracy=4.3%,                   Valid: loss=inf, accuracy=4.3%
+========================1========================
+tensor(0.7267)
+tensor(0.7273)
+========================2========================
+tensor(0.7721)
+tensor(0.7662)
+========================3========================
+tensor(0.7623)
+tensor(0.7622)
+========================4========================
+tensor(0.7968)
+tensor(0.7940)
+========================5========================
+tensor(0.8086)
+tensor(0.7978)
+Epoch  5,                   Train: loss=inf, accuracy=80.9%,                   Valid: loss=inf, accuracy=79.8%
+validation accuracy = 79.783
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 512
+========================0========================
+tensor(0.0646)
+tensor(0.0630)
+Epoch  0,                   Train: loss=inf, accuracy=6.5%,                   Valid: loss=inf, accuracy=6.3%
+========================1========================
+tensor(0.8121)
+tensor(0.8048)
+========================2========================
+tensor(0.7785)
+tensor(0.7677)
+========================3========================
+tensor(0.8140)
+tensor(0.8025)
+========================4========================
+tensor(0.8113)
+tensor(0.8075)
+========================5========================
+tensor(0.8413)
+tensor(0.8327)
+Epoch  5,                   Train: loss=inf, accuracy=84.1%,                   Valid: loss=inf, accuracy=83.3%
+validation accuracy = 83.267
+------------------------------------------------------------------
+Training model with a learning rate of 0.01 and a batch size of 1024
+========================0========================
+tensor(0.0996)
+tensor(0.1048)
+Epoch  0,                   Train: loss=inf, accuracy=10.0%,                   Valid: loss=inf, accuracy=10.5%
+========================1========================
+tensor(0.7363)
+tensor(0.7348)
+========================2========================
+tensor(0.7384)
+tensor(0.7392)
+========================3========================
+tensor(0.6721)
+tensor(0.6735)
+========================4========================
+tensor(0.7373)
+tensor(0.7318)
+========================5========================
+tensor(0.7788)
+tensor(0.7752)
+Epoch  5,                   Train: loss=inf, accuracy=77.9%,                   Valid: loss=inf, accuracy=77.5%
+validation accuracy = 77.517
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 1
+========================0========================
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+tensor(0.0443)
+tensor(0.0440)
+Epoch  0,                   Train: loss=2.330, accuracy=4.4%,                   Valid: loss=2.332, accuracy=4.4%
+========================1========================
+tensor(0.8237)
+tensor(0.8285)
+========================2========================
+tensor(0.8365)
+tensor(0.8408)
+========================3========================
+tensor(0.8432)
+tensor(0.8493)
+========================4========================
+tensor(0.8457)
+tensor(0.8487)
+========================5========================
+tensor(0.8477)
+tensor(0.8512)
+Epoch  5,                   Train: loss=0.445, accuracy=84.8%,                   Valid: loss=0.430, accuracy=85.1%
+validation accuracy = 85.117
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 16
+========================0========================
+tensor(0.0305)
+tensor(0.0282)
+Epoch  0,                   Train: loss=2.322, accuracy=3.1%,                   Valid: loss=2.326, accuracy=2.8%
+========================1========================
+tensor(0.8224)
+tensor(0.8267)
+========================2========================
+tensor(0.8394)
+tensor(0.8405)
+========================3========================
+tensor(0.8467)
+tensor(0.8447)
+========================4========================
+tensor(0.8466)
+tensor(0.8422)
+========================5========================
+tensor(0.8482)
+tensor(0.8455)
+Epoch  5,                   Train: loss=0.441, accuracy=84.8%,                   Valid: loss=0.450, accuracy=84.5%
+validation accuracy = 84.550
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 32
+========================0========================
+tensor(0.1638)
+tensor(0.1592)
+Epoch  0,                   Train: loss=2.323, accuracy=16.4%,                   Valid: loss=2.325, accuracy=15.9%
+========================1========================
+tensor(0.8264)
+tensor(0.8282)
+========================2========================
+tensor(0.8354)
+tensor(0.8355)
+========================3========================
+tensor(0.8419)
+tensor(0.8428)
+========================4========================
+tensor(0.8459)
+tensor(0.8485)
+========================5========================
+tensor(0.8515)
+tensor(0.8473)
+Epoch  5,                   Train: loss=0.439, accuracy=85.1%,                   Valid: loss=0.436, accuracy=84.7%
+validation accuracy = 84.850
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 64
+========================0========================
+tensor(0.0852)
+tensor(0.0838)
+Epoch  0,                   Train: loss=inf, accuracy=8.5%,                   Valid: loss=inf, accuracy=8.4%
+========================1========================
+tensor(0.8265)
+tensor(0.8225)
+========================2========================
+tensor(0.8351)
+tensor(0.8317)
+========================3========================
+tensor(0.8444)
+tensor(0.8400)
+========================4========================
+tensor(0.8495)
+tensor(0.8430)
+========================5========================
+tensor(0.8524)
+tensor(0.8442)
+Epoch  5,                   Train: loss=0.438, accuracy=85.2%,                   Valid: loss=0.455, accuracy=84.4%
+validation accuracy = 84.417
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 128
+========================0========================
+tensor(0.1038)
+tensor(0.1067)
+Epoch  0,                   Train: loss=inf, accuracy=10.4%,                   Valid: loss=inf, accuracy=10.7%
+========================1========================
+tensor(0.8272)
+tensor(0.8233)
+========================2========================
+tensor(0.8334)
+tensor(0.8298)
+========================3========================
+tensor(0.8446)
+tensor(0.8418)
+========================4========================
+tensor(0.8447)
+tensor(0.8423)
+========================5========================
+tensor(0.8482)
+tensor(0.8445)
+Epoch  5,                   Train: loss=0.441, accuracy=84.8%,                   Valid: loss=0.453, accuracy=84.5%
+validation accuracy = 84.450
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 256
+========================0========================
+tensor(0.0849)
+tensor(0.0812)
+Epoch  0,                   Train: loss=inf, accuracy=8.5%,                   Valid: loss=inf, accuracy=8.1%
+========================1========================
+tensor(0.7887)
+tensor(0.7840)
+========================2========================
+tensor(0.8329)
+tensor(0.8268)
+========================3========================
+tensor(0.7948)
+tensor(0.7845)
+========================4========================
+tensor(0.8162)
+tensor(0.8087)
+========================5========================
+tensor(0.8185)
+tensor(0.8125)
+Epoch  5,                   Train: loss=inf, accuracy=81.8%,                   Valid: loss=inf, accuracy=81.2%
+validation accuracy = 82.683
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 512
+========================0========================
+tensor(0.1701)
+tensor(0.1700)
+Epoch  0,                   Train: loss=inf, accuracy=17.0%,                   Valid: loss=inf, accuracy=17.0%
+========================1========================
+tensor(0.7750)
+tensor(0.7697)
+========================2========================
+tensor(0.8081)
+tensor(0.8022)
+========================3========================
+tensor(0.8105)
+tensor(0.8062)
+========================4========================
+tensor(0.8200)
+tensor(0.8102)
+========================5========================
+tensor(0.8431)
+tensor(0.8322)
+Epoch  5,                   Train: loss=inf, accuracy=84.3%,                   Valid: loss=inf, accuracy=83.2%
+validation accuracy = 83.217
+------------------------------------------------------------------
+Training model with a learning rate of 0.001 and a batch size of 1024
+========================0========================
+tensor(0.0724)
+tensor(0.0727)
+Epoch  0,                   Train: loss=inf, accuracy=7.2%,                   Valid: loss=inf, accuracy=7.3%
+========================1========================
+tensor(0.7683)
+tensor(0.7692)
+========================2========================
+tensor(0.7389)
+tensor(0.7460)
+========================3========================
+tensor(0.7674)
+tensor(0.7742)
+========================4========================
+tensor(0.7851)
+tensor(0.7883)
+========================5========================
+tensor(0.7775)
+tensor(0.7810)
+Epoch  5,                   Train: loss=inf, accuracy=77.8%,                   Valid: loss=inf, accuracy=78.1%
+validation accuracy = 78.833
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 1
+========================0========================
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+tensor(0.0899)
+tensor(0.0917)
+Epoch  0,                   Train: loss=2.328, accuracy=9.0%,                   Valid: loss=2.329, accuracy=9.2%
+========================1========================
+tensor(0.7416)
+tensor(0.7413)
+========================2========================
+tensor(0.7806)
+tensor(0.7833)
+========================3========================
+tensor(0.7973)
+tensor(0.7987)
+========================4========================
+tensor(0.8041)
+tensor(0.8033)
+========================5========================
+tensor(0.8127)
+tensor(0.8117)
+Epoch  5,                   Train: loss=0.586, accuracy=81.3%,                   Valid: loss=0.592, accuracy=81.2%
+validation accuracy = 81.167
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 16
+========================0========================
+tensor(0.0765)
+tensor(0.0723)
+Epoch  0,                   Train: loss=2.315, accuracy=7.6%,                   Valid: loss=2.317, accuracy=7.2%
+========================1========================
+tensor(0.7486)
+tensor(0.7493)
+========================2========================
+tensor(0.7816)
+tensor(0.7823)
+========================3========================
+tensor(0.7965)
+tensor(0.7950)
+========================4========================
+tensor(0.8041)
+tensor(0.8037)
+========================5========================
+tensor(0.8130)
+tensor(0.8128)
+Epoch  5,                   Train: loss=0.585, accuracy=81.3%,                   Valid: loss=0.586, accuracy=81.3%
+validation accuracy = 81.283
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 32
+========================0========================
+tensor(0.1104)
+tensor(0.1087)
+Epoch  0,                   Train: loss=2.305, accuracy=11.0%,                   Valid: loss=2.304, accuracy=10.9%
+========================1========================
+tensor(0.7450)
+tensor(0.7405)
+========================2========================
+tensor(0.7749)
+tensor(0.7698)
+========================3========================
+tensor(0.7975)
+tensor(0.7953)
+========================4========================
+tensor(0.8056)
+tensor(0.8032)
+========================5========================
+tensor(0.8120)
+tensor(0.8132)
+Epoch  5,                   Train: loss=0.587, accuracy=81.2%,                   Valid: loss=0.583, accuracy=81.3%
+validation accuracy = 81.317
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 64
+========================0========================
+tensor(0.1062)
+tensor(0.1012)
+Epoch  0,                   Train: loss=inf, accuracy=10.6%,                   Valid: loss=inf, accuracy=10.1%
+========================1========================
+tensor(0.7478)
+tensor(0.7420)
+========================2========================
+tensor(0.7811)
+tensor(0.7758)
+========================3========================
+tensor(0.7974)
+tensor(0.7933)
+========================4========================
+tensor(0.8055)
+tensor(0.8003)
+========================5========================
+tensor(0.8120)
+tensor(0.8043)
+Epoch  5,                   Train: loss=0.584, accuracy=81.2%,                   Valid: loss=0.600, accuracy=80.4%
+validation accuracy = 80.433
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 128
+========================0========================
+tensor(0.0633)
+tensor(0.0652)
+Epoch  0,                   Train: loss=inf, accuracy=6.3%,                   Valid: loss=inf, accuracy=6.5%
+========================1========================
+tensor(0.7429)
+tensor(0.7315)
+========================2========================
+tensor(0.7831)
+tensor(0.7702)
+========================3========================
+tensor(0.7932)
+tensor(0.7848)
+========================4========================
+tensor(0.8060)
+tensor(0.8025)
+========================5========================
+tensor(0.8126)
+tensor(0.8053)
+Epoch  5,                   Train: loss=inf, accuracy=81.3%,                   Valid: loss=0.602, accuracy=80.5%
+validation accuracy = 80.533
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 256
+========================0========================
+tensor(0.0809)
+tensor(0.0855)
+Epoch  0,                   Train: loss=inf, accuracy=8.1%,                   Valid: loss=inf, accuracy=8.6%
+========================1========================
+tensor(0.7436)
+tensor(0.7388)
+========================2========================
+tensor(0.7812)
+tensor(0.7773)
+========================3========================
+tensor(0.7981)
+tensor(0.7900)
+========================4========================
+tensor(0.8052)
+tensor(0.7948)
+========================5========================
+tensor(0.8138)
+tensor(0.8033)
+Epoch  5,                   Train: loss=inf, accuracy=81.4%,                   Valid: loss=inf, accuracy=80.3%
+validation accuracy = 80.333
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 512
+========================0========================
+tensor(0.1257)
+tensor(0.1180)
+Epoch  0,                   Train: loss=inf, accuracy=12.6%,                   Valid: loss=inf, accuracy=11.8%
+========================1========================
+tensor(0.7484)
+tensor(0.7587)
+========================2========================
+tensor(0.7810)
+tensor(0.7875)
+========================3========================
+tensor(0.7936)
+tensor(0.7972)
+========================4========================
+tensor(0.8037)
+tensor(0.8042)
+========================5========================
+tensor(0.8119)
+tensor(0.8117)
+Epoch  5,                   Train: loss=inf, accuracy=81.2%,                   Valid: loss=inf, accuracy=81.2%
+validation accuracy = 81.167
+------------------------------------------------------------------
+Training model with a learning rate of 0.0001 and a batch size of 1024
+========================0========================
+tensor(0.0956)
+tensor(0.0947)
+Epoch  0,                   Train: loss=inf, accuracy=9.6%,                   Valid: loss=inf, accuracy=9.5%
+========================1========================
+tensor(0.7409)
+tensor(0.7377)
+========================2========================
+tensor(0.7764)
+tensor(0.7737)
+========================3========================
+tensor(0.7964)
+tensor(0.7913)
+========================4========================
+tensor(0.8018)
+tensor(0.7958)
+========================5========================
+tensor(0.8133)
+tensor(0.8065)
+Epoch  5,                   Train: loss=inf, accuracy=81.3%,                   Valid: loss=inf, accuracy=80.7%
+validation accuracy = 80.650
